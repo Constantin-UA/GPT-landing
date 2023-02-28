@@ -18,7 +18,7 @@
 }
 .gpt__cta-content p {
 	font-family: var(--font-family);
-	font-size: 12px;
+	font-size: 16px;
 	line-height: 30px;
 	font-weight: 500;
 	color: #0e0e0e;
@@ -54,6 +54,9 @@
 }
 
 @media screen and (max-width: 650px) {
+	.gpt__cta-content p {
+		font-size: 14px;
+	}
 	.gpt__cta {
 		flex-direction: column;
 	}

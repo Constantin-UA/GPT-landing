@@ -1,5 +1,5 @@
 import React from 'react';
-import ethics from '../../assets/possibility.png';
+import ethics from '../../assets/ethic/ethic.png';
 import './ethics.css';
 
 const Ethics = () => {
