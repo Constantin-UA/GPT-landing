@@ -5,19 +5,19 @@ import './navbar.css';
 const Menu = () => (
 	<>
 		<p>
-			<a href="#home">Home</a>
+			<a href="#home">Introduction</a>
 		</p>
 		<p>
-			<a href="#wgpt">What is GPT?</a>
+			<a href="#wgpt">What is AI?</a>
 		</p>
 		<p>
-			<a href="#possibility">Open AI</a>
+			<a href="#applications">Applications of AI</a>
 		</p>
 		<p>
-			<a href="#features">Case Studies</a>
+			<a href="#ethics">AI Ethics and Governance</a>
 		</p>
 		<p>
-			<a href="#blog">Library</a>
+			<a href="#trends"> AI News and Trends</a>
 		</p>
 	</>
 );

@@ -1,9 +1,9 @@
-.gpt__possibility {
+.gpt__ethics {
 	display: flex;
 	flex-direction: row;
 }
 
-.gpt__possibility-image {
+.gpt__ethics-image {
 	flex: 1;
 	display: flex;
 	justify-content: flex-start;
@@ -12,12 +12,12 @@
 	margin-right: 2rem;
 }
 
-.gpt__possibility-image img {
+.gpt__ethics-image img {
 	width: 100%;
 	height: 100%;
 }
 
-.gpt__possibility-content {
+.gpt__ethics-content {
 	flex: 1;
 	display: flex;
 	justify-content: flex-end;
@@ -25,7 +25,7 @@
 	flex-direction: column;
 }
 
-.gpt__possibility-content h4 {
+.gpt__ethics-content h4 {
 	font-family: var(--font-family);
 	font-weight: 500;
 	font-size: 16px;
@@ -33,11 +33,11 @@
 	color: #71e5ff;
 }
 
-.gpt__possibility-content h4:last-child {
+.gpt__ethics-content h4:last-child {
 	color: #ff8a71;
 }
 
-.gpt__possibility-content h1 {
+.gpt__ethics-content h1 {
 	font-family: var(--font-family);
 	font-weight: 800;
 	font-size: 34px;
@@ -45,7 +45,7 @@
 	margin: 1rem 0;
 }
 
-.gpt__possibility-content p {
+.gpt__ethics-content p {
 	color: var(--color-text);
 	font-family: var(--font-family);
 	font-weight: 400;
@@ -56,15 +56,15 @@
 }
 
 @media screen and (max-width: 950px) {
-	.gpt__possibility {
+	.gpt__ethics {
 		flex-direction: column;
 	}
 
-	.gpt__possibility-image {
+	.gpt__ethics-image {
 		margin: 1rem 0;
 	}
 
-	.gpt__possibility-content {
+	.gpt__ethics-content {
 		margin-top: 2rem;
 	}
 }

@@ -1,10 +1,10 @@
-.gpt__features {
+.gpt__applications {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
 }
-.gpt__features-heading {
+.gpt__applications-heading {
 	flex: 1;
 	display: flex;
 	justify-content: flex-start;
@@ -14,13 +14,13 @@
 	text-align: center;
 	margin-right: 5rem;
 }
-.gpt__features-heading h1 {
+.gpt__applications-heading h1 {
 	font-style: 34px;
 	line-height: 45px;
 	font-weight: 800px;
 	font-family: var(--font-family);
 }
-.gpt__features-heading p {
+.gpt__applications-heading p {
 	color: var(--color-text);
 	font-style: 16px;
 	line-height: 30px;
@@ -28,7 +28,7 @@
 	font-family: var(--font-family);
 	margin-top: 2rem;
 }
-.gpt__features-container {
+.gpt__applications-container {
 	flex: 1.5;
 	display: flex;
 	justify-content: flex-start;
@@ -36,16 +36,16 @@
 	flex-direction: column;
 }
 @media screen and (max-width: 990px) {
-	.gpt__features {
+	.gpt__applications {
 		flex-direction: column;
 	}
 
-	.gpt__features-heading {
+	.gpt__applications-heading {
 		margin: 0 0 2rem 0;
 	}
 }
 @media screen and (max-width: 550px) {
-	.gpt__features-heading h1 {
+	.gpt__applications-heading h1 {
 		font-size: 28px;
 		line-height: 38px;
 	}

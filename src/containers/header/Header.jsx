@@ -6,21 +6,21 @@ const Header = () => {
 	return (
 		<div className="gpt__header section__padding" id="home">
 			<div className="gpt__header-content">
-				<h1 className="gradient__text">Let’s Build Something amazing with GPT-3 OpenAI</h1>
+				<h1 className="gradient__text">Unleash the Power of AI</h1>
 				<p>
-					Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise
-					blessing. Indulgence way everything joy alteration boisterous the attachment. Party we
-					years to order allow asked of.
+					Here, we're passionate about all things AI. Whether you're a newcomer to the field or a
+					seasoned expert, we have everything you need to learn more about this exciting and
+					rapidly-evolving technology.
 				</p>
 
 				<div className="gpt__header-content__input">
 					<input type="email" placeholder="Your Email Address" />
-					<button type="button">Get Started</button>
+					<button type="button">Try Now!</button>
 				</div>
 
 				<div className="gpt__header-content__people">
 					<img src={people} alt="people" />
-					<p>1,600 people requested access a visit in last 24 hours</p>
+					<p>1.600 people requested access a visit in last 24 hours</p>
 				</div>
 			</div>
 
